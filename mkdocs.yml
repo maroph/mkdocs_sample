@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: My MkDocs Sample Repository
+site_url: https://maroph.github.io/mkdocs_sample/
+site_description: My main GitHub Page
+site_author: Manfred Rosenboom (maroph)
+
+repo_name: maroph/mkdocs_sample
+repo_url: https://github.com/maroph/mkdocs_sample/
+edit_uri: edit/master/docs
+
+theme:
+    name: material
+    palette:
+        - scheme: default
+          primary: indigo
+          accent: indigo
+          toggle:
+            icon: material/brightness-7
+            name: Switch to dark mode
+        - scheme: slate
+          primary: indigo
+          accent: indigo
+          toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
+    font: false
+    language: en
+    direction: ltr
+    features:
+        - header.autohide
+        - content.action.edit
+        - content.action.view
+        - content.code.copy
+        - navigation.footer
+        - navigation.indexes
+        - navigation.instant
+        - navigation.instant.progress
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - toc.follow
+    icon:
+        repo: fontawesome/brands/github
+        edit: material/pencil 
+        view: material/eye
+
+nav:
+    - Home: index.md
+
+docs_dir: docs
+site_dir: site
+
+use_directory_urls: false
+strict: true
+
+copyright: Copyright (c) 2024 <a href="https://maroph.github.io/">Manfred Rosenboom</a>
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+plugins:
+    - search:
+          lang: en

@@ -1,0 +1,12 @@
+.* export-ignore
+#
+* text=auto
+#
+build.bash text eol=lf
+#
+*.asc text
+*.md text
+*.yml text
+#
+*.jpg binary
+*.png binary
