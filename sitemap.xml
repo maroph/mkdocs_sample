@@ -2,7 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://maroph.github.io/mkdocs_sample/index.html</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/info.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/blog/index.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/blog/2025/04/01/first-post.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/info/about.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/info/gdpr.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/info/license.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/info/site.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/info/sources.html</loc>
+         <lastmod>2025-04-04</lastmod>
+    </url>
+    <url>
+         <loc>https://maroph.github.io/mkdocs_sample/blog/archive/2025.html</loc>
+         <lastmod>2025-04-04</lastmod>
     </url>
 </urlset>
