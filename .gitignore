@@ -1,5 +1,7 @@
+.cache/
 .idea/
 .venv/
-venv/
 site/
+venv/
+sources/tmp
 mkdocs.shut

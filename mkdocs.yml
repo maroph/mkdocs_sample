@@ -58,7 +58,6 @@ theme:
 
 nav:
     - Home: index.md
-    - Blog: blog/index.md
     - Info:
         - info.md
         - About: info/about.md
@@ -66,6 +65,7 @@ nav:
         - License: info/license.md
         - Sources: info/sources.md
         - This Site: info/site.md
+    - Blog: blog/index.md
 
 docs_dir: docs
 site_dir: site
@@ -73,7 +73,7 @@ site_dir: site
 use_directory_urls: false
 strict: true
 
-copyright: Copyright (c) 2025 <a href="https://maroph.github.io/">Manfred Rosenboom</a>
+copyright: Copyright (c) 2025 CC-BY 4.0 <a href="https://maroph.github.io/">Manfred Rosenboom</a>
 
 markdown_extensions:
     - attr_list
@@ -98,8 +98,10 @@ plugins:
           type: iso_datetime
     - info:
         enabled: false
-    - privacy:
+    - offline:
           enabled: false
+    - privacy:
+          enabled: true
           cache: true
     - search:
           lang: en
@@ -130,6 +132,7 @@ plugins:
         categories_url_format: "category/{slug}"
         categories_toc: true
         categories_allowed:
+            - Announcement
             - General
 
 extra:
